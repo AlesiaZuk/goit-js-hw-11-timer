@@ -1,4 +1,57 @@
 body {
-  background-color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+  background-color: rgb(115, 157, 177);
+  color: rgb(71, 70, 70);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+
+  height: 100vh;
+  width: 1200px;
+
+  padding-left: 15px;
+  padding-right: 15px;
+
+  margin-left: auto;
+  margin-right: auto;
+
   background-image: url(../images/it.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+
+  font-size: 36px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px;
+  width: 100px;
+  height: auto;
+
+  border-radius: 35%;
+
+  background-color: rgb(115, 157, 177);
+}
+
+.label {
+  font-size: 18px;
 }
