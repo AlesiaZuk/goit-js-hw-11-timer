@@ -1,1 +1,0 @@
-{"version":3,"sources":["sass/_timer.scss"],"names":[],"mappings":"AAAA,KACE,qBAAA,CACA","file":"src.543f3810.css","sourceRoot":"../src","sourcesContent":["body {\n  background-color: black;\n  background-image: url(../images/it.jpg);\n}\n"]}
